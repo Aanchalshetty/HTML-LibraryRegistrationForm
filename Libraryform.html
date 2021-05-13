@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Library Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="./style1.css">
+    </head>
+    <body>
+        <img src="./library.jpg" align="Right" height="100px" width="100px">
+        <h1 align="Center">Library Registration Form</h1>
+        <h3 align="Center">Register yourself today for a free membership for 1 month</h3>
+       <form>
+           <div class="container">
+           <div class="form-group">
+               <br>
+        <label>FirstName: <input type="text" name="Firstname" placeholder="Enter First Name"></label>  <br><hr>
+        <label>LastName: <input type="text" name="Lastname" placeholder="Enter Last Name"></label>  <br><hr>
+        <label for="Start">Date Of Birth:</label>
+        <input type="date" name="Begin" placeholder = "yyyy-mm-dd"min="2000-12-31" max="2020-12-31">  <br><hr>
+        </div>
+        <fieldset>
+            <legend>Contact Details and Address</legend>
+            <label>Phone No: <input type="number" name="Phone No:"></label>  <br>
+            <label>Email address: <input type="email" name="Email Address"></label>  <br>
+            <label for="Address">Address:</label>
+            <textarea name="address" id="address" cols="82" rows="4"></textarea>     
+         </fieldset> 
+        <h4>What you would use library for:</h4>
+        <div class="form-group">
+            <legend>Check</legend>
+            <label><input type="checkbox" name="Reference">Reference</label>
+            <label><input type="checkbox" name="In-house reading" >In-house reading</label>
+            <label><input type="checkbox" name="Borrowing">Borrowing</label>
+            <label><input type="checkbox" name="Studying">Studying</label>
+            <hr>
+        </div>
+        <h4>Which sections of library you want to access:</h4>
+         <div class="form-group">
+            <legend>Options</legend>
+            <label><input type="checkbox" name="Magazines">Magazines</label>
+            <label><input type="checkbox" name="Fiction" >Fiction</label>
+            <label><input type="checkbox" name="Non-fiction">Non-fiction</label>
+            <label><input type="checkbox" name="Electronics">Electronics</label>
+            <label><input type="checkbox" name="All">All</label>
+            <hr>
+        </div>
+
+        <h4>Would you tell your friends about our library?</h4>
+       <div class="form-group">
+        <label><input type="radio" name="Yes">Yes</label>
+        <label><input type="radio" name="No">No</label>
+        <hr>
+       </div>
+        <h4>Would likely you would recommend to your colleges about our library?</h4>
+         <div class="form-group">
+        <label><input type="range" name="Service"></label> <br>
+       </div>
+       <br>
+       <div class="button">
+        <button type="button">Register</button>
+        </div>
+        </div>
+        </form>
+    </body>
+</html>
